@@ -11,12 +11,12 @@
   },
   "flappy": {
       "x": 60,
-      "width": 46,
-      "height": 64,
+      "width": 24,
+      "height": 23,
       "scale": 1,
-      "gravity": 1200,
+      "gravity": 500,
       "flap": {
-        "velocity": -420,
+        "velocity": -100000,
         "frame": 0,
         "rotate": -40,
         "norotate": true
@@ -40,13 +40,13 @@
       }
   },
   "pipe": {
-    "width": 90,
+    "width": 1,
     "height": 500,
     "space": 180,
     "offset": 120,
-    "speed": 120,
-    "interval": 2500,
-    "color": "#586e75"
+    "speed": 2500,
+    "interval": 80,
+    "color": "Blue"
   },
   "score": {
     "y": 55,
@@ -66,7 +66,7 @@
     } 
   },
   "gameover": {
-    "text": "Game\nOver",
+    "text": "dead...",
     "offset": -150,
     "style": {
       "font": "100px sans-serif", 
